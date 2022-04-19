@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#EBEDEF">
+
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/mygtukas0"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mygtukas8"
+        android:layout_alignStart="@+id/mygtukas8"
+        android:layout_alignLeft="@+id/mygtukas8"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/mygtukas1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt1"
+        android:layout_alignEnd="@+id/mygtukas4"
+        android:layout_alignRight="@+id/mygtukas4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="34dp"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/mygtukas2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mygtukas1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_toStartOf="@+id/mygtukas3"
+        android:layout_toLeftOf="@+id/mygtukas3"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/mygtukas3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mygtukas2"
+        android:layout_centerHorizontal="true"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/mygtukas4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mygtukas1"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/mygtukas2"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/mygtukas5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/mygtukas2"
+        android:layout_alignLeft="@+id/mygtukas2"
+        android:layout_alignBottom="@+id/mygtukas4"
+        android:text="5" />
+
+
+    <Button
+        android:id="@+id/mygtukas6"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mygtukas3"
+        android:layout_alignStart="@+id/mygtukas3"
+        android:layout_alignLeft="@+id/mygtukas3"
+        android:text="6" />
+
+
+    <Button
+        android:id="@+id/mygtukas7"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mygtukas4"
+        android:layout_toLeftOf="@+id/mygtukas2"
+        android:layout_marginLeft="10dp"
+        android:text="7" />
+
+
+    <Button
+        android:id="@+id/mygtukas8"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mygtukas5"
+        android:layout_alignStart="@+id/mygtukas5"
+        android:layout_below="@+id/mygtukas5"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/mygtukas9"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mygtukas6"
+        android:layout_alignStart="@+id/mygtukas6"
+        android:layout_alignLeft="@+id/mygtukas6"
+        android:text="9" />
+
+
+    <Button
+        android:id="@+id/mygtukasKabl"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mygtukas7"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/mygtukas2"
+        android:text="." />
+
+
+    <Button
+        android:id="@+id/mygtukasDalinti"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mygtukasDauginti"
+        android:layout_alignStart="@+id/mygtukasDauginti"
+        android:layout_alignLeft="@+id/mygtukasDauginti"
+        android:layout_alignEnd="@+id/mygtukasDauginti"
+        android:layout_alignRight="@+id/mygtukasDauginti"
+        android:text="/" />
+
+
+    <Button
+        android:id="@+id/mygtukasTrinti"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mygtukas9"
+        android:layout_alignStart="@+id/mygtukas9"
+        android:layout_alignLeft="@+id/mygtukas9"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/mygtukasMinus"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mygtukasPlius"
+        android:layout_alignStart="@+id/mygtukasPlius"
+        android:layout_alignLeft="@+id/mygtukasPlius"
+        android:layout_alignEnd="@+id/mygtukasPlius"
+        android:layout_alignRight="@+id/mygtukasPlius"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/mygtukasPlius"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mygtukas3"
+        android:layout_alignEnd="@+id/edt1"
+        android:layout_alignRight="@+id/edt1"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/mygtukas3"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/mygtukasDauginti"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mygtukasMinus"
+        android:layout_alignStart="@+id/mygtukasMinus"
+        android:layout_alignLeft="@+id/mygtukasMinus"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/mygtukasLygu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mygtukas0"
+        android:layout_alignStart="@+id/edt1"
+        android:layout_alignLeft="@+id/mygtukasKabl"
+        android:layout_alignEnd="@+id/mygtukasDalinti"
+        android:layout_alignRight="@+id/mygtukasDalinti"
+        android:layout_marginTop="20dp"
+        android:text="=" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="mygtukasPlius,mygtukasDalinti,mygtukas1,mygtukas0,
+        mygtukasLygu,mygtukasTrinti,mygtukas8,mygtukas4,mygtukas5,mygtukas9,mygtukas2,mygtukas7,
+        mygtukasMinus,mygtukas3,mygtukasDauginti,mygtukasKabl,mygtukas6" />
+
+</RelativeLayout>
